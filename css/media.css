@@ -1,0 +1,189 @@
+@media (max-width :  992px ) {
+    .home{
+        background-image:url(../images/bg-curvy-desktop.svg);
+        background-repeat: no-repeat;
+        background-position:bottom center;
+        padding-bottom:100px;
+    }
+    .navbar__menu{
+        width:100%;
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+    .navbar__menu.show{
+        display: flex;
+    }
+    .navbar__items{
+        padding: 20px 0;
+    } 
+    .openMenu{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar__brands img{
+         width:70%;
+    }
+    .home__content h3{
+        width: 100%;
+    }
+    .home__content p{
+        width:80%;
+    }
+    .info__content{
+        grid-template-columns: 1fr;
+    }
+    .prod__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prod__text h2{
+        width:100%;
+        font-size:3rem;
+        padding-top:3 rem;
+    }
+    .profile__content{
+        flex-direction: column;
+    }
+    .profile__cards{
+        margin: 2rem 0;
+    }
+    .profile__content .profile__cards:nth-child(1){
+        margin-top:0;
+    }
+    .form{
+        flex-direction: column;
+        width: 100%;
+    }
+    .camp__input{
+        margin-bottom: 2rem;
+        padding: 1.5rem 33rem 1.5rem 4rem;
+    }
+    .btn__cta{
+        padding:1.5rem 20rem;
+    }
+    .sgup__background{
+        width:100%;
+    }
+
+}
+@media (max-width :  768px ) {
+    .home__content h3{
+        font-size: 3.5rem;
+    }
+     .camp__input{
+         padding:1.5rem 21rem 1.5rem 4rem;
+     }
+     .btn__cta{
+         padding:1.5rem 14rem;
+     }
+     .footer__content{
+         flex-direction: column;
+         align-items: left;
+     }
+     .footer__ubi{
+         flex-direction: column;
+     }
+     .footer__content .footer__contact{
+         margin-top: 3rem;
+     }
+     .footer__nav{
+         flex-direction: column;
+     }
+     .footer__nav .footer__info:nth-child(1){
+         margin-top: 7rem;
+     }
+     .footer__info{
+         margin-top: 4rem;
+     }
+     .footer__social{
+         margin:4rem 0;
+         
+     }
+}
+
+@media (max-width :  600px ) {
+    .sgup__text h2{
+        font-size: 2rem;
+    }
+    .camp__input{
+        padding:1.5rem 15rem 1.5rem 4rem;
+    }
+    .btn__cta{
+        padding:1.5rem 11rem;
+    }
+     
+}
+@media (max-width :  480px ) {
+    .camp__input{
+        padding:1.5rem 10rem 1.5rem 4rem;
+    }
+    .btn__cta{
+        padding:1.5rem 9rem;
+    }
+     
+}
+
+@media (max-width :  375px ) {
+    .home{
+        background-image:url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position:bottom center;
+    }
+    .home__content{
+        margin:0;
+    }
+    .home__content h3{
+        font-size: 2.3rem;
+        width:100%;
+    }
+    .home__content p {
+        font-size: 1.5rem;
+        width:100%;
+    }
+    .information{
+        padding-top:5rem;
+    }
+    .info__text-1 p,
+    .info__text-2 p,
+    .info__text-3 p,
+    .info__text-4 p{
+        width:100%;
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding:1.5rem 7.5rem;
+    }
+    .profile__image{
+        padding-left: 1.5rem;
+    }
+    .profile__cards{
+        padding:30px 30px;
+        width:95%;
+    }
+    .prod__text h2{
+        font-size:1.8rem;
+        text-align: center;
+    }
+    .prod__text p{
+        font-size: 1.5rem;
+    }
+    .profile__text{
+        font-size: 11px;
+    }
+    .sgup__background{
+        width: 100%;
+    }
+    .sgup__text h2{
+        font-size: 1.8rem;
+    }
+    .sgup__text p {
+        width:90%;
+    }
+    .camp__input{
+        padding:1.5rem 6rem 1.5rem 3.5rem;
+    }
+    .btn__cta{
+        padding:1.5rem 6rem;
+    }
+}
