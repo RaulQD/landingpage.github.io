@@ -129,6 +129,7 @@
         background-image:url(../images/bg-curvy-mobile.svg);
         background-repeat: no-repeat;
         background-position:bottom center;
+        padding-bottom: 0;
     }
     .home__content{
         margin:0;
