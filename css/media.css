@@ -129,11 +129,17 @@
     .home__content p {
         font-size:1.7rem;
     }
+    .info__text-1 p,
+    .info__text-2 p,
+    .info__text-3 p,
+    .info__text-4 p{
+        width:100%;
+    }
     .camp__input{
-        padding:1.5rem 10rem 1.5rem 4rem;
+        padding:1.5rem 7rem 1.5rem 4rem;
     }
     .btn__cta{
-        padding:1.5rem 9rem;
+        padding:1.5rem 7rem;
     }
      
 }
