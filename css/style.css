@@ -273,7 +273,7 @@ main{
 .sgup__text p{
     width: 70%;
     margin:auto;
-    color:#c4c4c4;
+    color:#e4dcdc;
     font-size: 14px;
     line-height: 1.5;
     padding-bottom: 20px;
@@ -323,7 +323,6 @@ main{
 }
 .footer__ubi .footer__ubitext{
     line-height: 1.5;
-    font-size: 14px;
 }
 .footer__ubi .footer__ubiIcon img{
     margin-top: 0.5rem;
