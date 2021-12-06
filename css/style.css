@@ -41,6 +41,9 @@ nav{
     margin-top:3rem;
     padding-bottom:2rem;
 }
+.navbar__brands img{
+  width:80%;
+}
 .navbar__menu{
     list-style-type: none;
 }
